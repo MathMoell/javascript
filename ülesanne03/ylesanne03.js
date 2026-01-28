@@ -1,6 +1,6 @@
 // Mathias Möll
 // Kuupäev: 27.01.2026
-// Näidis JS harjutus: arvud ja operaatorid
+// matemaatika teeb mu peale valu
 
 //1️ Sõidu aeg ja kaugus
 let dist = 150;
@@ -29,3 +29,4 @@ let voolutarb = serverpwr / 1000;
 let kulud = voolutarb * (ehind / 100);
 
 console.log("Serveri töökulu ühe tunniga:", kulud.toFixed(4));
+
