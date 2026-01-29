@@ -11,9 +11,7 @@ if (temp > 25) {
 } else if (temp >= 15 && temp <= 25) {
     console.log("norm temp");
 } else {
-    console.log("Külm ilm");
-}
-
+    console.log("Külm ilm"); }
 
 //2️ Kasutajanime kontroll
 let usrnam = "admin";
@@ -21,9 +19,7 @@ let usrnam = "admin";
 console.log(
     usrnam === "admin"
         ? "tervist admin"
-        : "tervist külaline"
-);
-
+        : "tervist külaline" };
 
 //3️ piletid
 let piletityyp = "soodukaga pilet";
@@ -37,15 +33,13 @@ if (piletityyp === "tais hinnaga pilet") {
     } else if (age <= 64) {
         hind = 20;
     } else {
-        hind = 15;
-    } }
+        hind = 15; } }
 
 else if (piletityyp === "soodukaga pilet") {
 
     if (age < 18 || age >= 65) {
         hind = 8;
     } else {
-        hind = 15;
-    } }
+        hind = 15; } }
 
 console.log("pileti hind on", hind, "vietnami dong'i");
